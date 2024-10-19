@@ -1,6 +1,8 @@
 # Srimad-Bhagavad-Gita-VN
 
-google drive link to the apk: https://drive.google.com/file/d/1av1TApzUv3eKImJ-S1rdeOAFNSZsKqSq/view?usp=sharing
+Google Drive Download Link for the Visual Novel: https://drive.google.com/drive/folders/1Y9_Ob0wd9PntE7zqrQOF910fZsnNvGit?usp=sharing
+
+available for Android, Linux, Windows, Mac, IOS
 
 i am using renpy for the project since it's written in python and is simple and has great community support <3
 

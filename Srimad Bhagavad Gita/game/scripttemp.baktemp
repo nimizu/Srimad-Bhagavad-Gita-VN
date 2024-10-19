@@ -1,0 +1,65 @@
+﻿define K = Character("Lord Krishna", color="#ffcccc")
+define A = Character("Arjun", color="#ffcccc")
+
+# Declare images with zoom
+image field: 
+    "images/thebgfield.jpg" zoom 5
+image SriKrishna:
+    "images/SriKrishna.png" zoom 1.25
+image Arjun: 
+    "images/Arjun.png" zoom 1.25
+
+label start:
+    show field with dissolve
+    
+    show Arjun at left with dissolve
+    show SriKrishna at right with dissolve
+
+    A "O Janardan, if You consider knowledge superior to action, then why do You ask me to wage this terrible war?" (audio "audio/Chap3/1.ogg") ["3.1"]
+    A "My intellect is bewildered by Your ambiguous advice. Please tell me decisively the one path by which I may attain the highest good." (audio "audio/Chap3/2.ogg") ["3.2"]
+
+    K "O sinless one, the two paths leading to enlightenment were previously explained by Me: the path of knowledge, for those inclined toward contemplation, and the path of work for those inclined toward action." (audio "audio/Chap3/3.ogg") ["3.3"]
+
+    K "One cannot achieve freedom from karmic reactions by merely abstaining from work, nor can one attain perfection of knowledge by mere physical renunciation." (audio "audio/Chap3/4.ogg") ["3.4"]
+
+    K "There is no one who can remain without action even for a moment. Indeed, all beings are compelled to act by their qualities born of material nature (the three guṇas)." (audio "audio/Chap3/5.ogg") ["3.5"]
+
+    K "Those who restrain the external organs of action, while continuing to dwell on sense objects in the mind, certainly delude themselves and are to be called hypocrites." (audio "audio/Chap3/6.ogg") ["3.6"]
+
+    K "But those karm yogis who control their knowledge senses with the mind, O Arjun, and engage the working senses in working without attachment, are certainly superior." (audio "audio/Chap3/7.ogg") ["3.7"]
+
+    K "You should thus perform your prescribed Vedic duties, since action is superior to inaction. By ceasing activity, even your bodily maintenance will not be possible." (audio "audio/Chap3/8.ogg") ["3.8"]
+
+    K "Work must be done as a yajna to the Supreme Lord; otherwise, work causes bondage in this material world. Therefore, O son of Kunti, for the satisfaction of God, perform your prescribed duties, without being attached to the results." (audio "audio/Chap3/9.ogg") ["3.9"]
+
+    K "In the beginning of creation, Brahma created humankind along with duties, and said, “Prosper in the performance of these yajñas (sacrifices), for they shall bestow upon you all you wish to achieve.”" (audio "audio/Chap3/10.ogg") ["3.10"]
+
+    K "By your sacrifices, the celestial gods will be pleased, and by cooperation between humans and the celestial gods, great prosperity will reign for all." (audio "audio/Chap3/11.ogg") ["3.11"]
+
+    K "The celestial gods, being satisfied by the performance of sacrifice, will grant you all the desired necessities of life. But those who enjoy what is given to them, without making offerings in return, are verily thieves." (audio "audio/Chap3/12.ogg") ["3.12"]
+
+    K "The spiritually-minded, who eat food that is first offered in sacrifice, are released from all kinds of sin. Others, who cook food for their own enjoyment, verily eat only sin." (audio "audio/Chap3/13.ogg") ["3.13"]
+
+    K "All living beings subsist on food, and food is produced by rains. Rains come from the performance of sacrifice, and sacrifice is produced by the performance of prescribed duties." (audio "audio/Chap3/14.ogg") ["3.14"]
+
+    K "The duties for human beings are described in the Vedas, and the Vedas are manifested by God Himself. Therefore, the all-pervading Lord is eternally present in acts of sacrifice." (audio "audio/Chap3/15.ogg") ["3.15"]
+
+    K "O Parth, those who do not accept their responsibility in the cycle of sacrifice established by the Vedas are sinful. They live only for the delight of their senses; indeed their lives are in vain." (audio "audio/Chap3/16.ogg") ["3.16"]
+
+    K "But those who rejoice in the self, who are illumined and fully satisfied in the self, for them, there is no duty." (audio "audio/Chap3/17.ogg") ["3.17"]
+
+    K "Such self-realized souls have nothing to gain or lose either in discharging or renouncing their duties. Nor do they need to depend on other living beings to fulfill their self-interest." (audio "audio/Chap3/18.ogg") ["3.18"]
+
+    K "Therefore, giving up attachment, perform actions as a matter of duty because by working without being attached to the fruits, one attains the Supreme." (audio "audio/Chap3/19.ogg") ["3.19"]
+
+    K "By performing their prescribed duties, King Janak and others attained perfection. You should also perform your duties to set an example for the good of the world." (audio "audio/Chap3/20.ogg") ["3.20"]
+
+    K "Whatever actions great persons perform, common people follow. Whatever standards they set, all the world pursues." (audio "audio/Chap3/21.ogg") ["3.21"]
+
+    K "There is no duty for Me to do in all the three worlds, O Parth, nor do I have anything to gain or attain. Yet, I am engaged in prescribed duties." (audio "audio/Chap3/22.ogg") ["3.22"]
+
+    K "For if I did not carefully perform the prescribed duties, O Parth, all men would follow My path in all respects." (audio "audio/Chap3/23.ogg") ["3.23"]
+
+
+    # End of chapter
+    return

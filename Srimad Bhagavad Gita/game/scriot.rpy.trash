@@ -1,0 +1,176 @@
+define config.say_attribute = "sound"  # Change "audio" to "sound"
+
+# Define the character
+define krishna = Character("Krishna", color="#00ff00")
+define arjun = Character("Arjun", color="#ff0000")
+
+# Define a function to play sound automatically with the corresponding dialogue
+init python:
+    def play_sound(verse_number):
+        renpy.sound.play("{}.ogg".format(verse_number))
+
+# Start of the game
+label start:
+
+    # Verse 3.1
+    arjun "O Janardan, if You consider knowledge superior to action, then why do You ask me to wage this terrible war? My intellect is bewildered by Your ambiguous advice. Please tell me decisively the one path by which I may attain the highest good."
+    play_sound(1)
+    pause 1.0
+
+    # Verse 3.2
+    krishna "The two paths leading to enlightenment were previously explained by Me: the path of knowledge, for those inclined toward contemplation, and the path of work for those inclined toward action."
+    play_sound(2)
+    pause 1.0
+
+    # Verse 3.3
+    krishna "One cannot achieve freedom from karmic reactions by merely abstaining from work, nor can one attain perfection of knowledge by mere physical renunciation."
+    play_sound(3)
+    pause 1.0
+
+    # Verse 3.4
+    krishna "There is no one who can remain without action even for a moment. Indeed, all beings are compelled to act by their qualities born of material nature (the three guṇas)."
+    play_sound(4)
+    pause 1.0
+
+    # Verse 3.5
+    krishna "Those who restrain the external organs of action, while continuing to dwell on sense objects in the mind, certainly delude themselves and are to be called hypocrites."
+    play_sound(5)
+    pause 1.0
+
+    # Verse 3.6
+    krishna "But those karm yogis who control their knowledge senses with the mind, O Arjun, and engage the working senses in working without attachment, are certainly superior."
+    play_sound(6)
+    pause 1.0
+
+    # Verse 3.7
+    krishna "You should thus perform your prescribed Vedic duties, since action is superior to inaction. By ceasing activity, even your bodily maintenance will not be possible."
+    play_sound(7)
+    pause 1.0
+
+    # Verse 3.8
+    krishna "Work must be done as a yajna to the Supreme Lord; otherwise, work causes bondage in this material world. Therefore, O son of Kunti, for the satisfaction of God, perform your prescribed duties, without being attached to the results."
+    play_sound(8)
+    pause 1.0
+
+    # Verse 3.9
+    krishna "In the beginning of creation, Brahma created humankind along with duties, and said, “Prosper in the performance of these yajñas (sacrifices), for they shall bestow upon you all you wish to achieve.”"
+    play_sound(9)
+    pause 1.0
+
+    # Verse 3.10
+    krishna "By your sacrifices, the celestial gods will be pleased, and by cooperation between humans and the celestial gods, great prosperity will reign for all."
+    play_sound(10)
+    pause 1.0
+
+    # Verse 3.11
+    krishna "The celestial gods, being satisfied by the performance of sacrifice, will grant you all the desired necessities of life. But those who enjoy what is given to them, without making offerings in return, are verily thieves."
+    play_sound(11)
+    pause 1.0
+
+    # Verse 3.12
+    krishna "The spiritually-minded, who eat food that is first offered in sacrifice, are released from all kinds of sin. Others, who cook food for their own enjoyment, verily eat only sin."
+    play_sound(12)
+    pause 1.0
+
+    # Verse 3.13
+    krishna "All living beings subsist on food, and food is produced by rains. Rains come from the performance of sacrifice, and sacrifice is produced by the performance of prescribed duties."
+    play_sound(13)
+    pause 1.0
+
+    # Verse 3.14
+    krishna "The duties for human beings are described in the Vedas, and the Vedas are manifested by God Himself. Therefore, the all-pervading Lord is eternally present in acts of sacrifice."
+    play_sound(14)
+    pause 1.0
+
+    # Verse 3.15
+    krishna "O Parth, those who do not accept their responsibility in the cycle of sacrifice established by the Vedas are sinful. They live only for the delight of their senses; indeed their lives are in vain."
+    play_sound(15)
+    pause 1.0
+
+    # Verse 3.16
+    krishna "But those who rejoice in the self, who are illumined and fully satisfied in the self, for them, there is no duty."
+    play_sound(16)
+    pause 1.0
+
+    # Verse 3.17
+    krishna "Such self-realized souls have nothing to gain or lose either in discharging or renouncing their duties. Nor do they need to depend on other living beings to fulfill their self-interest."
+    play_sound(17)
+    pause 1.0
+
+    # Verse 3.18
+    krishna "Therefore, giving up attachment, perform actions as a matter of duty because by working without being attached to the fruits, one attains the Supreme."
+    play_sound(18)
+    pause 1.0
+
+    # Verse 3.19
+    krishna "By performing their prescribed duties, King Janak and others attained perfection. You should also perform your duties to set an example for the good of the world. Whatever actions great persons perform, common people follow. Whatever standards they set, all the world pursues."
+    play_sound(19)
+    pause 1.0
+
+    # Verse 3.20
+    krishna "There is no duty for Me to do in all the three worlds, O Parth, nor do I have anything to gain or attain. Yet, I am engaged in prescribed duties."
+    play_sound(20)
+    pause 1.0
+
+    # Verse 3.21
+    krishna "For if I did not carefully perform the prescribed duties, O Parth, all men would follow My path in all respects."
+    play_sound(21)
+    pause 1.0
+
+    # Verse 3.22
+    krishna "If I ceased to perform prescribed actions, all these worlds would perish. I would be responsible for the pandemonium that would prevail, and would thereby destroy the peace of the human race."
+    play_sound(22)
+    pause 1.0
+
+    # Verse 3.23
+    krishna "As ignorant people perform their duties with attachment to the results, O scion of Bharat, so should the wise act without attachment, for the sake of leading people on the right path."
+    play_sound(23)
+    pause 1.0
+
+    # Verse 3.24
+    krishna "The wise should not create discord in the intellects of ignorant people, who are attached to fruitive actions, by inducing them to stop work. Rather, by performing their duties in an enlightened manner, they should inspire the ignorant also to do their prescribed duties."
+    play_sound(24)
+    pause 1.0
+
+    # Verse 3.25
+    krishna "All activities are carried out by the three modes of material nature. But in ignorance, the soul, deluded by false identification with the body, thinks of itself as the doer."
+    play_sound(25)
+    pause 1.0
+
+    # Verse 3.26
+    krishna "O mighty-armed Arjun, illumined persons distinguish the soul as distinct from guṇas and karmas. They perceive that it is only the guṇas (in the shape of the senses, mind, and others) that move among the guṇas (in the shape of the objects of perception), and thus they do not get entangled in them."
+    play_sound(26)
+    pause 1.0
+
+    # Verse 3.27
+    krishna "Those who are deluded by the operation of the guṇas become attached to the results of their actions. But the wise who understand these truths should not unsettle such ignorant people who know very little."
+    play_sound(27)
+    pause 1.0
+
+    # Verse 3.28
+    krishna "Performing all works as an offering unto Me, constantly meditate on Me as the Supreme. Become free from desire and selfishness, and with your mental grief departed, fight!"
+    play_sound(28)
+    pause 1.0
+
+    # Verse 3.29
+    krishna "Those who abide by these teachings of Mine, with profound faith and free from envy, are released from the bondage of karma."
+    play_sound(29)
+    pause 1.0
+
+    # Verse 3.30
+    krishna "But those who find faults with My teachings, being bereft of knowledge and devoid of discrimination, they disregard these principles and bring about their own ruin."
+    play_sound(30)
+    pause 1.0
+
+    # Verse 3.42
+    krishna "The wise who have renounced the fruits of their actions, and are detached from the material desires, are not affected by sinful action, just as the lotus flower is untouched by water."
+    play_sound(42)
+    pause 1.0
+
+    # Verse 3.43
+    krishna "Therefore, O Arjun, give up all varieties of religion and just surrender unto Me. I shall deliver you from all sinful reactions. Do not fear."
+    play_sound(43)
+    pause 1.0
+
+    # End of the game
+    return
